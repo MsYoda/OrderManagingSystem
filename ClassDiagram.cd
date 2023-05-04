@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="CPU">
+    <Position X="17.25" Y="21.75" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="CPU::CPUFilterComparator">
+        <TypeIdentifier>
+          <NewMemberFileName>CPU.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BREAAAAAAAQAAAAAAAAEARCAEAEAARAAAAAAAAEAAAA=</HashCode>
+      <FileName>CPU.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fridge">
+    <Position X="38.5" Y="22" Width="3.5" />
+    <NestedTypes>
+      <Class Name="Fridge::FridgeFilterComparator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Fridge.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAEAAABAgAQAAAAAAEAEAQQAABAAABABEAAAAAEAAAA=</HashCode>
+      <FileName>Fridge.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPU">
+    <Position X="21.5" Y="21.75" Width="3.5" />
+    <NestedTypes>
+      <Class Name="GPU::GPUFilterComparator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GPU.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAEAAAAAQAQBEAAAAAAEAQAcQAAAABAAAAAAAAEAAAA=</HashCode>
+      <FileName>GPU.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Keyboard">
+    <Position X="30" Y="21.5" Width="3.5" />
+    <NestedTypes>
+      <Class Name="Keyboard::KeyboardFilterComparator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Keyboard.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAkAAAAAAASAEAAAAAAEAQAAAAAAABAKAAAAAAEAAAA=</HashCode>
+      <FileName>Keyboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mouse">
+    <Position X="25.75" Y="21.5" Width="3.5" />
+    <NestedTypes>
+      <Class Name="Mouse::MouseFilterComparator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mouse.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAEAAIAAAAQAAAIAYAIEAQAAAAAAABAAAAAAACEAACA=</HashCode>
+      <FileName>Mouse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Washmachine">
+    <Position X="34.25" Y="22" Width="3.5" />
+    <NestedTypes>
+      <Class Name="Washmachine::WashMacineFilterComparator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Washmachine.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAEAAAAAEAQgAAABAAAECQAAAAAACBAAAAAAAIEAAAA=</HashCode>
+      <FileName>Washmachine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assortment">
+    <Position X="3.75" Y="31" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAgAAAAAAAABAAoAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assortment.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="assortment" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Bank">
+    <Position X="9.25" Y="20.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAAAAAEEAAAAAAABAAABAEAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Bank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Order" Collapsed="true">
+    <Position X="44.75" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Order::OrderStatesInd" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Order.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQEIAAAAAAAAAAAABBAKwAEABAEAAARAAAAABAAAAgg=</HashCode>
+      <FileName>Order.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Review" Collapsed="true">
+    <Position X="48.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAABAAAAAACIAIEJAAAQEAAAAAAAAIAACgAAAAgAE=</HashCode>
+      <FileName>Review.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="User" Collapsed="true">
+    <Position X="46.5" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="User::SingInComparator">
+        <TypeIdentifier>
+          <NewMemberFileName>User.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EABBARAAAAAAAQgAAQAAAQEAAQAAAAAEABAgggEAAAA=</HashCode>
+      <FileName>User.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerElement">
+    <Position X="19.5" Y="18.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAIAIAACAAEAQAAAAEAAgAAAAAAAAgAAAA=</HashCode>
+      <FileName>ComputerElement.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="dateOfRelease" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExternalTech">
+    <Position X="28.5" Y="18.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAEEAQAAAAAAAAAAAAAAABAAABA=</HashCode>
+      <FileName>ExternalTech.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HouseTech">
+    <Position X="36.75" Y="18.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAggCACAAAAAAAEAQAAAAAIAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>HouseTech.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Product">
+    <Position X="28" Y="11.5" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Product::FilterComparator">
+        <TypeIdentifier>
+          <NewMemberFileName>Product.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BQECABAAAAQAAAAAEAAEgQAAAAAUAAAAAAAQQAAQBAA=</HashCode>
+      <FileName>Product.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BinaryTree&lt;Type&gt;">
+    <Position X="4.5" Y="23.75" Width="3.25" />
+    <NestedTypes>
+      <Class Name="BinaryTree&lt;Type&gt;::TreeNode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>templates\BinaryTree.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="BinaryTree&lt;Type&gt;::Iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>templates\BinaryTree.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AKICAEAAAYAAAAgAAAABUAAAAgAAEAAAAQAgQAAEAAA=</HashCode>
+      <FileName>templates\BinaryTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comparator&lt;T1, T2&gt;" Collapsed="true">
+    <Position X="46.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>templates\Comparator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrderSystem">
+    <Position X="9.25" Y="24" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>QQMQgAFABgwgEBDAhAAgAAgQAgCAIAKABgIAQFAAAAQ=</HashCode>
+      <FileName>OrderSystem.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="registredUsers" />
+      <Field Name="reviews" />
+      <Field Name="cpuFile" />
+      <Field Name="gpuFile" />
+      <Field Name="fridgeFile" />
+      <Field Name="washmachineFile" />
+      <Field Name="mouseFile" />
+      <Field Name="keyboardFile" />
+      <Field Name="ordersFile" />
+      <Field Name="reviewsFile" />
+      <Field Name="userFile" />
+      <Field Name="bankFile" />
+      <Field Name="bank" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ContainerException">
+    <Position X="16.5" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>ContainerException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyException">
+    <Position X="19.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileException">
+    <Position X="19.75" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputExeption">
+    <Position X="23" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAEAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>InputExeption.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrdersCollector">
+    <Position X="0.5" Y="25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABAAAAAAAAABAAIAAAACAEAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>OrdersCollector.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="orders" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BinaryFile&lt;T&gt;">
+    <Position X="9.5" Y="31" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAQAAAAAAAAAAAAAAAIAAAAAUAAARCAACA=</HashCode>
+      <FileName>BinaryFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddAction">
+    <Position X="40.75" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAQAAAgAEAABAAAAACAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>AddAction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeleteAction">
+    <Position X="46.75" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAEAAAAAABAgIEAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>DeleteAction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EditAction">
+    <Position X="43.75" Y="7" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAEAAAAQAAIgAEAABAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>EditAction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReviewsMenu">
+    <Position X="12" Y="17" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>YAAQEBAAAQAAEAQAEAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReviewsMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReviewWriteWidget">
+    <Position X="14.5" Y="17.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAEAEACAAAAAAAAAAAABAAAAAAgAA=</HashCode>
+      <FileName>ReviewWriteWidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdminOrderTable">
+    <Position X="14" Y="13.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAEAAAAAAAAAAAAAAAQABAAAAEAAAgAAAAAAAAA=</HashCode>
+      <FileName>AdminOrderTable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseTable">
+    <Position X="9" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseTable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseProductTable">
+    <Position X="3.5" Y="13.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAKAAAAAAIAAAgAAAQMEgAQAAAMAAAAAQAAAAAAAACQ=</HashCode>
+      <FileName>BaseProductTable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankTable">
+    <Position X="7.5" Y="13.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAQAAAAAAAAAQgAAAAAAAAA=</HashCode>
+      <FileName>BankTable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrderTable">
+    <Position X="11" Y="14" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAFAAAAAAAAAAAAABAEAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>OrderTable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProductTable">
+    <Position X="1.75" Y="18.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AACQEAAAAAAAAAAAAAAAAAACgAAgABAAAAAAAAAAAAQ=</HashCode>
+      <FileName>ProductTable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserProductTable">
+    <Position X="5.75" Y="18.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>gAAAEAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>UserProductTable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WashMachineEditMenu">
+    <Position X="4.75" Y="8" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAFAAAAAAAAAAgAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>WashMachineEditMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPUEditMenu">
+    <Position X="8.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAABAEAAAAAAAAAAAAAAAAAAAAAAABAAAABA=</HashCode>
+      <FileName>CPUEditMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EditMenu">
+    <Position X="9.75" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>ABgAAgIEGAgACIIhAACAAiAAiAggIABAAACAAARAAAA=</HashCode>
+      <FileName>EditMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FridgeEditMenu">
+    <Position X="11" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAEAAAAAAAAAAAAAAAIAAAAAAAAAAAEBA=</HashCode>
+      <FileName>FridgeEditMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPUEditMenu">
+    <Position X="13.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAEEAAAAAAAAAAAAAAAAAAAAAAAAAgABA=</HashCode>
+      <FileName>GPUEditMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyboardEditMenu">
+    <Position X="17.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAEAAAQAAAAAAAAAAAAAAAIAAAAAAAABA=</HashCode>
+      <FileName>KeyboardEditMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MouseEditMenu">
+    <Position X="15.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAFAAAAAAAAAAAEAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MouseEditMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Date">
+    <Position X="20.25" Y="14.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAAAAAAAAAAAAQAAAAQAAAABAAAgAAAAAAA=</HashCode>
+      <FileName>Date.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ProductCount">
+    <Position X="24.5" Y="13" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAIAAAAAQAAAAAAAAAQAAAwAAAAAAA=</HashCode>
+      <FileName>Order.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="product" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="Transaction" Collapsed="true">
+    <Position X="43" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Transaction.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

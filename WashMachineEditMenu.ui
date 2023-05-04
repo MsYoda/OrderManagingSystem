@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WashMachineEditMenuClass</class>
+ <widget class="QWidget" name="WashMachineEditMenuClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>482</width>
+    <height>466</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WashMachineEditMenu</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <widget class="QLabel" name="placement">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>165</y>
+        <width>69</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Исполнение</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="consuming">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>215</y>
+        <width>145</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Класс энергопотребления</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>265</y>
+        <width>151</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Максимальная загрузка(кг)</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="placement_input">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>187</y>
+        <width>440</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="name_input">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>87</y>
+        <width>440</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="cost_input">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>137</y>
+        <width>440</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="programs_input">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>337</y>
+        <width>440</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="maxweight_input">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>287</y>
+        <width>440</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>115</y>
+        <width>42</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Цена($)</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="error_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>365</y>
+        <width>441</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="consuming_input">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>237</y>
+        <width>440</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="title">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>421</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Редактирование стиральной машины</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>315</y>
+        <width>125</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Количество программ</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="name">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>65</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Название:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="back_button">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>410</y>
+        <width>75</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Отмена</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="save_button">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>410</y>
+        <width>75</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Сохранить</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

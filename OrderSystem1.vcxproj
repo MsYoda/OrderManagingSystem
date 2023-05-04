@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2813B2BC-D05D-4894-ABA4-7FB7CCA4136C}</ProjectGuid>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">10.0.19041.0</WindowsTargetPlatformVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
+    <QtInstall>6.2.4_msvc</QtInstall>
+    <QtModules>core;gui;widgets</QtModules>
+    <QtBuildConfig>debug</QtBuildConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="QtSettings">
+    <QtInstall>6.2.4_msvc2019_64</QtInstall>
+    <QtModules>core;gui;widgets</QtModules>
+    <QtBuildConfig>release</QtBuildConfig>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AddAction.cpp" />
+    <ClCompile Include="AdminOrderTable.cpp" />
+    <ClCompile Include="algorithm.cpp" />
+    <ClCompile Include="Assortment.cpp" />
+    <ClCompile Include="BacketTable.cpp" />
+    <ClCompile Include="Bank.cpp" />
+    <ClCompile Include="BankTable.cpp" />
+    <ClCompile Include="BaseProductTable.cpp" />
+    <ClCompile Include="BaseTable.cpp" />
+    <ClCompile Include="BinaryFile.cpp" />
+    <ClCompile Include="CheckFunctions.cpp" />
+    <ClCompile Include="ContainerException.cpp" />
+    <ClCompile Include="CopyData.cpp" />
+    <ClCompile Include="CPUEditMenu.cpp" />
+    <ClCompile Include="DeleteAction.cpp" />
+    <ClCompile Include="EditAction.cpp" />
+    <ClCompile Include="EditMenu.cpp" />
+    <ClCompile Include="Exception.cpp" />
+    <ClCompile Include="FileException.cpp" />
+    <ClCompile Include="FridgeEditMenu.cpp" />
+    <ClCompile Include="GPUEditMenu.cpp" />
+    <ClCompile Include="InputExeption.cpp" />
+    <ClCompile Include="ioqstring.cpp" />
+    <ClCompile Include="Keyboard.cpp" />
+    <ClCompile Include="KeyboardEditMenu.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="MouseEditMenu.cpp" />
+    <ClCompile Include="Order.cpp" />
+    <ClCompile Include="OrdersCollector.cpp" />
+    <ClCompile Include="OrderStateMenu.cpp" />
+    <ClCompile Include="OrderTable.cpp" />
+    <ClCompile Include="Product.cpp">
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4172</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="ProductTable.cpp" />
+    <ClCompile Include="Review.cpp" />
+    <ClCompile Include="ReviewsMenu.cpp" />
+    <ClCompile Include="ReviewWriteWidget.cpp" />
+    <ClCompile Include="templates\BinaryTree.cpp">
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">6011</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="Transaction.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="UserProductTable.cpp" />
+    <ClCompile Include="Washmachine.cpp" />
+    <ClCompile Include="WashMachineEditMenu.cpp" />
+    <QtRcc Include="OrderSystem.qrc" />
+    <QtUic Include="CPUEditMenu.ui" />
+    <QtUic Include="FridgeEditMenu.ui" />
+    <QtUic Include="GPUEditMenu.ui" />
+    <QtUic Include="KeyboardEditMenu.ui" />
+    <QtUic Include="MouseEditMenu.ui" />
+    <QtUic Include="OrderSystem.ui" />
+    <QtMoc Include="OrderSystem.h" />
+    <ClCompile Include="ComputerElement.cpp" />
+    <ClCompile Include="CPU.cpp" />
+    <ClCompile Include="Date.cpp" />
+    <ClCompile Include="ExternalTech.cpp" />
+    <ClCompile Include="Fridge.cpp" />
+    <ClCompile Include="GPU.cpp" />
+    <ClCompile Include="HouseTech.cpp" />
+    <ClCompile Include="OrderSystem.cpp" />
+    <ClCompile Include="main.cpp" />
+    <QtUic Include="ReviewsMenu.ui" />
+    <QtUic Include="ReviewWriteWidget.ui" />
+    <QtUic Include="WashMachineEditMenu.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddAction.h" />
+    <ClInclude Include="AdminOrderTable.h" />
+    <ClInclude Include="algorithm.h" />
+    <ClInclude Include="Assortment.h" />
+    <QtMoc Include="BaseProductTable.h" />
+    <QtMoc Include="BacketTable.h" />
+    <ClInclude Include="Bank.h" />
+    <QtMoc Include="BankTable.h" />
+    <ClInclude Include="BaseTable.h" />
+    <ClInclude Include="BinaryFile.h" />
+    <ClInclude Include="CheckFunctions.h" />
+    <ClInclude Include="ComputerElement.h" />
+    <ClInclude Include="ContainerException.h" />
+    <ClInclude Include="CopyData.h" />
+    <ClInclude Include="CPU.h" />
+    <QtMoc Include="WashMachineEditMenu.h" />
+    <QtMoc Include="CPUEditMenu.h" />
+    <ClInclude Include="Date.h" />
+    <QtMoc Include="EditMenu.h" />
+    <ClInclude Include="DeleteAction.h" />
+    <ClInclude Include="EditAction.h" />
+    <ClInclude Include="Exception.h" />
+    <ClInclude Include="ExternalTech.h" />
+    <ClInclude Include="FileException.h" />
+    <ClInclude Include="Fridge.h" />
+    <QtMoc Include="FridgeEditMenu.h" />
+    <ClInclude Include="GPU.h" />
+    <QtMoc Include="GPUEditMenu.h" />
+    <ClInclude Include="HouseTech.h" />
+    <ClInclude Include="InputExeption.h" />
+    <ClInclude Include="ioqstring.h" />
+    <ClInclude Include="Keyboard.h" />
+    <QtMoc Include="KeyboardEditMenu.h" />
+    <ClInclude Include="Mouse.h" />
+    <QtMoc Include="MouseEditMenu.h" />
+    <ClInclude Include="Order.h" />
+    <QtMoc Include="OrderTable.h" />
+    <ClInclude Include="OrdersCollector.h" />
+    <QtMoc Include="OrderStateMenu.h" />
+    <ClInclude Include="Product.h" />
+    <ClInclude Include="Products.h" />
+    <QtMoc Include="ProductTable.h" />
+    <ClInclude Include="Review.h" />
+    <QtMoc Include="ReviewsMenu.h" />
+    <QtMoc Include="ReviewWriteWidget.h" />
+    <ClInclude Include="templates\BinaryTree.h" />
+    <ClInclude Include="templates\Comparator.h" />
+    <ClInclude Include="Transaction.h" />
+    <ClInclude Include="User.h" />
+    <QtMoc Include="UserProductTable.h" />
+    <ClInclude Include="Washmachine.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

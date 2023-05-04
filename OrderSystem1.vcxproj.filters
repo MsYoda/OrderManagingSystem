@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Products">
+      <UniqueIdentifier>{6c1d1993-71d4-47cf-a96a-06230790666d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Products">
+      <UniqueIdentifier>{74bd1c70-3ec2-4816-9bed-657a666ed8de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseClasses">
+      <UniqueIdentifier>{667a98d3-d38c-43e4-a3d6-63327108f81f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Output Classes">
+      <UniqueIdentifier>{daad18e5-ab95-47d0-8fb2-ed157431fab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Output Classes">
+      <UniqueIdentifier>{c9cdd74c-e240-4fca-9197-cb8a08bc4466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base Calsses">
+      <UniqueIdentifier>{1ce3d6a8-cb2e-4e92-a190-9e56315cce2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates">
+      <UniqueIdentifier>{16ba39e3-b0c8-495e-86f3-d24f796df5cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Templates">
+      <UniqueIdentifier>{ac127da0-b485-47dc-be1b-867757fd7fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{2f0498f6-03fc-4d76-bb81-7e122ff863ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{8512da4a-8b45-47fb-a07a-0abc6a80f0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{15ce9b17-ce62-4e4a-9353-bafc31f612e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\EditMenus">
+      <UniqueIdentifier>{f39fe1d8-2a03-4ad5-8204-95e48e293bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Files">
+      <UniqueIdentifier>{2abf07d8-5351-4990-bda5-066ab0886045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Files">
+      <UniqueIdentifier>{49fadab6-b474-4d07-b061-69fda7b75f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Tables">
+      <UniqueIdentifier>{09c3c2ee-4a6e-4ee9-83e2-d75267d4ff87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\EditMenus">
+      <UniqueIdentifier>{be31f99c-e414-4069-84ca-59edf69213c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\Tables">
+      <UniqueIdentifier>{1c6e4b80-d635-43ad-ac31-bb7b1f80de24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\EditMenus">
+      <UniqueIdentifier>{22d3fced-60fb-4666-9348-6d5509ca17ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptions">
+      <UniqueIdentifier>{15a65621-3854-47e3-a25d-63d584408e18}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="OrderSystem.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="OrderSystem.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU.cpp">
+      <Filter>Source Files\Products</Filter>
+    </ClCompile>
+    <ClCompile Include="Fridge.cpp">
+      <Filter>Source Files\Products</Filter>
+    </ClCompile>
+    <ClCompile Include="GPU.cpp">
+      <Filter>Source Files\Products</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files\Products</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files\Products</Filter>
+    </ClCompile>
+    <ClCompile Include="Washmachine.cpp">
+      <Filter>Source Files\Products</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputerElement.cpp">
+      <Filter>Source Files\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalTech.cpp">
+      <Filter>Source Files\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="HouseTech.cpp">
+      <Filter>Source Files\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Review.cpp">
+      <Filter>Source Files\Output Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\Output Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Order.cpp">
+      <Filter>Source Files\Output Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="templates\BinaryTree.cpp">
+      <Filter>Source Files\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="Product.cpp">
+      <Filter>Source Files\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="InputExeption.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainerException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="FileException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckFunctions.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Date.cpp">
+      <Filter>Source Files\Output Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Assortment.cpp">
+      <Filter>Source Files\Output Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseProductTable.cpp">
+      <Filter>Source Files\UI\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductTable.cpp">
+      <Filter>Source Files\UI\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminOrderTable.cpp">
+      <Filter>Source Files\UI\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="BacketTable.cpp">
+      <Filter>Source Files\UI\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseTable.cpp">
+      <Filter>Source Files\UI\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="UserProductTable.cpp">
+      <Filter>Source Files\UI\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderTable.cpp">
+      <Filter>Source Files\UI\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="EditMenu.cpp">
+      <Filter>Source Files\UI\EditMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUEditMenu.cpp">
+      <Filter>Source Files\UI\EditMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="FridgeEditMenu.cpp">
+      <Filter>Source Files\UI\EditMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="GPUEditMenu.cpp">
+      <Filter>Source Files\UI\EditMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardEditMenu.cpp">
+      <Filter>Source Files\UI\EditMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseEditMenu.cpp">
+      <Filter>Source Files\UI\EditMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="WashMachineEditMenu.cpp">
+      <Filter>Source Files\UI\EditMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryFile.cpp">
+      <Filter>Source Files\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bank.cpp">
+      <Filter>Source Files\Output Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="BankTable.cpp">
+      <Filter>Source Files\UI\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="ioqstring.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="OrdersCollector.cpp">
+      <Filter>Source Files\Output Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderStateMenu.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ReviewsMenu.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderSystem.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ReviewWriteWidget.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Transaction.cpp">
+      <Filter>Source Files\Output Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CopyData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GPU.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Fridge.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Washmachine.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Order.h">
+      <Filter>Header Files\Output Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Review.h">
+      <Filter>Header Files\Output Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files\Output Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputerElement.h">
+      <Filter>Header Files\Base Calsses</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalTech.h">
+      <Filter>Header Files\Base Calsses</Filter>
+    </ClInclude>
+    <ClInclude Include="HouseTech.h">
+      <Filter>Header Files\Base Calsses</Filter>
+    </ClInclude>
+    <ClInclude Include="templates\BinaryTree.h">
+      <Filter>Header Files\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="templates\Comparator.h">
+      <Filter>Header Files\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
+      <Filter>Header Files\Base Calsses</Filter>
+    </ClInclude>
+    <ClInclude Include="Products.h">
+      <Filter>Header Files\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="FileException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="InputExeption.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckFunctions.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Assortment.h">
+      <Filter>Header Files\Output Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>Header Files\Output Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminOrderTable.h">
+      <Filter>Header Files\UI\Tables</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTable.h">
+      <Filter>Header Files\UI\Tables</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryFile.h">
+      <Filter>Header Files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bank.h">
+      <Filter>Header Files\Output Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ioqstring.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Transaction.h">
+      <Filter>Header Files\Output Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OrdersCollector.h">
+      <Filter>Header Files\Output Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="CPUEditMenu.ui">
+      <Filter>Form Files\EditMenus</Filter>
+    </QtUic>
+    <QtUic Include="FridgeEditMenu.ui">
+      <Filter>Form Files\EditMenus</Filter>
+    </QtUic>
+    <QtUic Include="GPUEditMenu.ui">
+      <Filter>Form Files\EditMenus</Filter>
+    </QtUic>
+    <QtUic Include="KeyboardEditMenu.ui">
+      <Filter>Form Files\EditMenus</Filter>
+    </QtUic>
+    <QtUic Include="MouseEditMenu.ui">
+      <Filter>Form Files\EditMenus</Filter>
+    </QtUic>
+    <QtUic Include="WashMachineEditMenu.ui">
+      <Filter>Form Files\EditMenus</Filter>
+    </QtUic>
+    <QtUic Include="ReviewsMenu.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ReviewWriteWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="BaseProductTable.h">
+      <Filter>Header Files\UI\Tables</Filter>
+    </QtMoc>
+    <QtMoc Include="ProductTable.h">
+      <Filter>Header Files\UI\Tables</Filter>
+    </QtMoc>
+    <QtMoc Include="BacketTable.h">
+      <Filter>Header Files\UI\Tables</Filter>
+    </QtMoc>
+    <QtMoc Include="OrderTable.h">
+      <Filter>Header Files\UI\Tables</Filter>
+    </QtMoc>
+    <QtMoc Include="CPUEditMenu.h">
+      <Filter>Header Files\UI\EditMenus</Filter>
+    </QtMoc>
+    <QtMoc Include="EditMenu.h">
+      <Filter>Header Files\UI\EditMenus</Filter>
+    </QtMoc>
+    <QtMoc Include="FridgeEditMenu.h">
+      <Filter>Header Files\UI\EditMenus</Filter>
+    </QtMoc>
+    <QtMoc Include="GPUEditMenu.h">
+      <Filter>Header Files\UI\EditMenus</Filter>
+    </QtMoc>
+    <QtMoc Include="KeyboardEditMenu.h">
+      <Filter>Header Files\UI\EditMenus</Filter>
+    </QtMoc>
+    <QtMoc Include="MouseEditMenu.h">
+      <Filter>Header Files\UI\EditMenus</Filter>
+    </QtMoc>
+    <QtMoc Include="WashMachineEditMenu.h">
+      <Filter>Header Files\UI\EditMenus</Filter>
+    </QtMoc>
+    <QtMoc Include="UserProductTable.h">
+      <Filter>Header Files\UI\Tables</Filter>
+    </QtMoc>
+    <QtMoc Include="BankTable.h">
+      <Filter>Header Files\UI\Tables</Filter>
+    </QtMoc>
+    <QtMoc Include="OrderStateMenu.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="OrderSystem.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="ReviewsMenu.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="ReviewWriteWidget.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
